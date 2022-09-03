@@ -46,7 +46,7 @@ result = factorial(num)
 print("The factorial of", num, "is", result)
 
 """
-
+"""
 def factorial(x):
    #This is a recursive function to find the factorial of an integer
 
@@ -58,4 +58,7 @@ def factorial(x):
 
 num = 3
 print("The factorial of", num, "is", factorial(num))
-
+"""
+def sum(a,b):
+    return a+b
+print(sum(3,4))
